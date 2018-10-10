@@ -2,11 +2,15 @@ import java.util.*;
 
 public class Hotel {
     private String name;
-    private HashMap<String, ArrayList<Object>> roomList;
+    private ArrayList<SingleRoom> singleRooms;
+    private ArrayList<DoubleRoom> doubleRooms;
+    private ArrayList<ConferenceRoom> conferenceRooms;
 
-    public Hotel(String name, HashMap<String, ArrayList<Object>> roomList) {
+    public Hotel(String name, ArrayList<SingleRoom> singleRooms, ArrayList<DoubleRoom> doubleRooms, ArrayList<ConferenceRoom> conferenceRooms) {
         this.name = name;
-        this.roomList = roomList;
+        this.singleRooms = singleRooms;
+        this.doubleRooms = doubleRooms;
+        this.conferenceRooms = conferenceRooms;
     }
 
     public String getName() {
@@ -14,32 +18,14 @@ public class Hotel {
     }
 
     public int getRoomCount() {
-        Collection<String> roomTypes = roomList.keySet();
-
-        int total = 0;
-        for (int i = 0; i < roomTypes.size() ; i++) {
-            String roomType = roomTypes.toArray()[i].toString(); // Converts the collection of keys to an array/string
-            total += roomList.get(roomType).size(); // This gets the amount of objects by roomType key
-        }
-
-        return total;
+        return singleRooms.size() + doubleRooms.size() + conferenceRooms.size();
     }
 
-    private boolean roomIsFull(ArrayList roomType){
-        for (int i = 0; i < roomType.size() ; i++) {
-            System.out.println(roomType.get(i));
-//            if(roomType == 0){
+//    private boolean roomIsFull(ArrayList roomType){
 //
-//            }
-        }
-        return false;
-    }
-
-    public Object checkInGuest(Guest guest, String room) {
-        Collection<String> roomTypes = roomList.keySet();
-        roomIsFull(roomList.get(room));
-        // If it does, check if roomComplement.size = 0
-        // If true, .add guest to roomComplement (takeInGuest method?)
-        return room;
-    }
+//    }
+//
+//    public Object checkInGuest(Guest guest, String room) {
+//
+//    }
 }
