@@ -22,4 +22,16 @@ public class SingleRoom {
     public int getComplement() {
         return roomComplement.size();
     }
+
+    public boolean isOccupied(){
+        if(roomComplement.size() > 0) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+    public void addGuest(Guest guest){
+        this.roomComplement.add(guest);
+    }
 }

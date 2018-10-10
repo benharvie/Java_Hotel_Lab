@@ -28,4 +28,12 @@ public class ConferenceRoom {
     public String getName() {
         return name;
     }
+
+    public boolean isOccupied(){
+        if(capacity > 0) {
+            return true;
+        } else {
+            return false;
+        }
+    }
 }

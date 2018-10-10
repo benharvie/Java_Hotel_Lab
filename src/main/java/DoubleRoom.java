@@ -22,4 +22,12 @@ public class DoubleRoom {
     public int getComplement() {
         return roomComplement.size();
     }
+
+    public boolean isOccupied(){
+        if(capacity > 0) {
+            return true;
+        } else {
+            return false;
+        }
+    }
 }
