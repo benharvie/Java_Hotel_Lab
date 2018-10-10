@@ -20,4 +20,9 @@ public class SingleRoomTest {
     public void hasCapacity(){
         assertEquals(1, room1.getCapacity());
     }
+
+    @Test
+    public void hasComplement(){
+        assertEquals(0, room1.getComplement());
+    }
 }

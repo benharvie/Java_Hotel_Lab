@@ -18,4 +18,8 @@ public class SingleRoom {
     public int getCapacity() {
         return capacity;
     }
+
+    public int getComplement() {
+        return roomComplement.size();
+    }
 }

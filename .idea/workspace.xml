@@ -22,26 +22,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="SingleRoom.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SingleRoom.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/SingleRoom.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+            <state relative-caret-position="300">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
               <folding>
                 <element signature="e#346#347#0" expanded="true" />
                 <element signature="e#372#373#0" expanded="true" />
                 <element signature="e#411#412#0" expanded="true" />
                 <element signature="e#442#443#0" expanded="true" />
+                <element signature="e#486#487#0" expanded="true" />
+                <element signature="e#522#523#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SingleRoomTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="SingleRoomTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/SingleRoomTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="35" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
+            <state relative-caret-position="375">
+              <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#124#125#0" expanded="true" />
@@ -50,6 +52,8 @@
                 <element signature="e#248#249#0" expanded="true" />
                 <element signature="e#369#370#0" expanded="true" />
                 <element signature="e#391#392#0" expanded="true" />
+                <element signature="e#461#462#0" expanded="true" />
+                <element signature="e#515#516#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -363,8 +367,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/SingleRoomTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/SingleRoom.java" />
+        <option value="$PROJECT_DIR$/src/test/java/SingleRoomTest.java" />
       </list>
     </option>
   </component>
@@ -440,7 +444,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SingleRoomTest.hasCapacity">
+  <component name="RunManager" selected="JUnit.SingleRoomTest.hasComplement">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -451,6 +455,23 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="SingleRoomTest" />
       <option name="METHOD_NAME" value="hasCapacity" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="SingleRoomTest.hasComplement" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodeClanTower_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SingleRoomTest" />
+      <option name="METHOD_NAME" value="hasComplement" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -519,9 +540,11 @@
     <list>
       <item itemvalue="JUnit.SingleRoomTest.hasRoomNumber" />
       <item itemvalue="JUnit.SingleRoomTest.hasCapacity" />
+      <item itemvalue="JUnit.SingleRoomTest.hasComplement" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SingleRoomTest.hasComplement" />
         <item itemvalue="JUnit.SingleRoomTest.hasCapacity" />
         <item itemvalue="JUnit.SingleRoomTest.hasRoomNumber" />
       </list>
@@ -543,6 +566,12 @@
   <component name="TestHistory">
     <history-entry file="SingleRoomTest_hasRoomNumber - 2018.10.10 at 10h 08m 36s.xml">
       <configuration name="SingleRoomTest.hasRoomNumber" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SingleRoomTest_hasCapacity - 2018.10.10 at 10h 10m 43s.xml">
+      <configuration name="SingleRoomTest.hasCapacity" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SingleRoomTest_hasComplement - 2018.10.10 at 10h 14m 14s.xml">
+      <configuration name="SingleRoomTest.hasComplement" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -646,10 +675,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/SingleRoomTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/SingleRoom.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
-          <caret line="20" column="35" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#346#347#0" expanded="true" />
+            <element signature="e#372#373#0" expanded="true" />
+            <element signature="e#411#412#0" expanded="true" />
+            <element signature="e#442#443#0" expanded="true" />
+            <element signature="e#486#487#0" expanded="true" />
+            <element signature="e#522#523#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/SingleRoomTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#124#125#0" expanded="true" />
@@ -658,19 +702,8 @@
             <element signature="e#248#249#0" expanded="true" />
             <element signature="e#369#370#0" expanded="true" />
             <element signature="e#391#392#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SingleRoom.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
-          <folding>
-            <element signature="e#346#347#0" expanded="true" />
-            <element signature="e#372#373#0" expanded="true" />
-            <element signature="e#411#412#0" expanded="true" />
-            <element signature="e#442#443#0" expanded="true" />
+            <element signature="e#461#462#0" expanded="true" />
+            <element signature="e#515#516#0" expanded="true" />
           </folding>
         </state>
       </provider>
