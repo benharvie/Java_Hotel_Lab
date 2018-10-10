@@ -21,7 +21,7 @@ public class Hotel {
             String roomType = roomCount.toArray()[i].toString(); // Converts the collection of keys to an array/string
             total += roomList.get(roomType).size(); // This gets the amount of objects by roomType key
         }
-        
+
         return total;
     }
 }
