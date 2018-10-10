@@ -14,4 +14,8 @@ public class SingleRoom {
     public int getRoomNumber() {
         return roomNumber;
     }
+
+    public int getCapacity() {
+        return capacity;
+    }
 }
