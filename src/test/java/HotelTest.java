@@ -9,6 +9,7 @@ import java.util.HashMap;
 import static org.junit.Assert.assertEquals;
 
 public class HotelTest {
+    Guest guest;
     Hotel hotel;
     SingleRoom room1;
     DoubleRoom room2;
@@ -21,6 +22,8 @@ public class HotelTest {
 
     @Before
     public void before(){
+        guest = new Guest();
+
         room1 = new SingleRoom(1);
         room2 = new DoubleRoom(2);
         room3 = new ConferenceRoom(3, "Cowgate Conference Room");
@@ -45,5 +48,11 @@ public class HotelTest {
     @Test
     public void hasRooms(){
         assertEquals(6, hotel.getRoomCount());
+    }
+
+    @Test
+    public void checkGuestIn(){
+        hotel.checkInGuest(guest, "Single Rooms");
+        assertEquals(room1, room1);
     }
 }
