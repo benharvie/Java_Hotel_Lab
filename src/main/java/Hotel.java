@@ -1,5 +1,4 @@
-import java.util.ArrayList;
-import java.util.HashMap;
+import java.util.*;
 
 public class Hotel {
     private String name;
@@ -12,5 +11,17 @@ public class Hotel {
 
     public String getName() {
         return name;
+    }
+
+    public int getRoomCount() {
+        Collection<String> roomCount = roomList.keySet();
+
+        int total = 0;
+        for (int i = 0; i < roomCount.size() ; i++) {
+            String roomType = roomCount.toArray()[i].toString(); // Converts the collection of keys to an array/string
+            total += roomList.get(roomType).size(); // This gets the amount of objects by roomType key
+        }
+        
+        return total;
     }
 }
